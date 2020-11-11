@@ -20,4 +20,4 @@ Object.prototype.reverseArr = function () {
   return this;
 }
 
-console.log(arr.reverseArr());
+console.log(arr.reverseArr()); // [ 6, 4, 3, 2 ]
