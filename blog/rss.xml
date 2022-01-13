@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>AouoJS Blog</title>
+        <link>https://aouos.com/blog</link>
+        <description>AouoJS Blog</description>
+        <lastBuildDate>Thu, 13 Jan 2022 14:33:25 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[Welcome to my blog]]></title>
+            <link>https://aouos.com/blog/blog-start</link>
+            <guid>blog-start</guid>
+            <pubDate>Thu, 13 Jan 2022 14:33:25 GMT</pubDate>
+            <description><![CDATA[this blog test]]></description>
+            <content:encoded><![CDATA[<p>this blog test</p>]]></content:encoded>
+        </item>
+    </channel>
+</rss>
