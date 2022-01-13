@@ -21,13 +21,11 @@ const config = {
       {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          editUrl: 'https://github.com/aouos/aouojs/blob/main',
         },
         blog: {
           showReadingTime: true,
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          editUrl: 'https://github.com/aouos/aouojs/tree/main',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
