@@ -8,7 +8,7 @@ import styles from './index.module.css';
 export default function Home() {
   const { siteConfig } = useDocusaurusContext();
   return (
-    <Layout title={`${siteConfig.title}`} description="javascript notes">
+    <Layout title={`Welcome`} description="javascript notes">
       <div className={styles.main}>
         <div className={styles.box}>
           <img className={styles.img} src="/img/logo.png"></img>

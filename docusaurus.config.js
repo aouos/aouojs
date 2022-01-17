@@ -35,6 +35,10 @@ const config = {
   ],
 
   themeConfig: {
+    // announcementBar: {
+    //   id: 'announcementBar-2',
+    //   content: ``,
+    // },
     navbar: {
       title: 'AouoJS',
       logo: {
@@ -45,16 +49,74 @@ const config = {
         {
           type: 'doc',
           docId: 'intro',
-          position: 'left',
+          position: 'right',
           label: 'Notes',
         },
-        { to: '/blog', label: 'Blog', position: 'left' },
+        { to: '/blog', label: 'Blog', position: 'right' },
         {
-          href: 'https://github.com/facebook/docusaurus',
-          label: 'GitHub',
+          href: 'https://github.com/aouos/aouojs',
           position: 'right',
+          className: 'header-github-link',
+          'aria-label': 'GitHub repository',
         },
       ],
+    },
+    footer: {
+      links: [
+        {
+          title: 'Works',
+          items: [
+            {
+              label: 'What to eat',
+              to: 'https://aouos.cn/',
+            },
+            {
+              label: 'Animation Algorithm',
+              to: 'https://aouos.com/animation-algorithm/',
+            },
+          ],
+        },
+        {
+          title: 'GitHub',
+          items: [
+            {
+              label: 'LeetCode',
+              to: 'https://github.com/aouos/leetcode',
+            },
+            {
+              label: 'Code Server',
+              to: 'https://github.com/aouos/code-server',
+            },
+          ],
+        },
+        {
+          title: 'Others',
+          items: [
+            {
+              label: 'Xmind Notes',
+              to: 'https://github.com/aouos/xmind-notes',
+            },
+          ],
+        },
+        {
+          title: 'About',
+          items: [
+            {
+              label: 'About me',
+              to: '/about',
+            },
+            {
+              label: 'GitHub',
+              to: 'https://github.com/aouos',
+            },
+            {
+              label: 'Twitter',
+              to: 'https://twitter.com/AouoCode',
+            },
+          ],
+        },
+      ],
+      copyright: `Copyright © 2020 - ${new Date().getFullYear()} AouoCode. Built with Docusaurus.`,
     },
     colorMode: {
       defaultMode: 'dark',
