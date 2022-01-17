@@ -16,8 +16,25 @@
   }
 }
 
-.buttons {
+.main {
   display: flex;
-  align-items: center;
   justify-content: center;
+  user-select: none;
+}
+
+.box {
+  padding-top: 50px;
+  text-align: center;
+}
+
+.img {
+  display: block;
+  width: 160px;
+  padding-bottom: 30px;
+  margin: 0 auto;
+}
+
+.btn {
+  margin-top: 20px;
+  line-height: 2;
 }

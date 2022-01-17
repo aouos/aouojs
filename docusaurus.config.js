@@ -11,7 +11,7 @@ const config = {
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/logo.png',
   organizationName: 'aouocode',
   projectName: 'aouocode',
 
@@ -39,7 +39,7 @@ const config = {
       title: 'AouoJS',
       logo: {
         alt: 'aouocode javascript',
-        src: 'img/docusaurus.png',
+        src: 'img/logo.png',
       },
       items: [
         {
@@ -55,6 +55,9 @@ const config = {
           position: 'right',
         },
       ],
+    },
+    colorMode: {
+      defaultMode: 'dark',
     },
     prism: {
       theme: lightCodeTheme,
