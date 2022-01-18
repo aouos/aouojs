@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://aouos.com/blog</id>
     <title>AouoJS Blog</title>
-    <updated>2022-01-17T13:32:29.473Z</updated>
+    <updated>2022-01-18T01:04:41.671Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://aouos.com/blog"/>
     <subtitle>AouoJS Blog</subtitle>
@@ -11,7 +11,7 @@
         <title type="html"><![CDATA[Welcome to my blog]]></title>
         <id>blog-start</id>
         <link href="https://aouos.com/blog/blog-start"/>
-        <updated>2022-01-17T13:32:29.473Z</updated>
+        <updated>2022-01-18T01:04:41.671Z</updated>
         <summary type="html"><![CDATA[this blog test]]></summary>
         <content type="html"><![CDATA[<p>this blog test</p>]]></content>
         <author>
