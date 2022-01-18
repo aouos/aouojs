@@ -35,10 +35,10 @@ const config = {
   ],
 
   themeConfig: {
-    // announcementBar: {
-    //   id: 'announcementBar-2',
-    //   content: ``,
-    // },
+    announcementBar: {
+      id: 'announcementBar',
+      content: `Welcome to AouoJS 🎉🎉🎉`,
+    },
     navbar: {
       title: 'AouoJS',
       logo: {
