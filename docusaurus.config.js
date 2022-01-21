@@ -6,7 +6,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 const config = {
   title: 'AouoJS',
-  tagline: 'Dinosaurs are cool',
+  tagline: 'jvascript notes',
   url: 'https://aouos.com',
   baseUrl: '/',
   onBrokenLinks: 'throw',
@@ -53,6 +53,7 @@ const config = {
           label: 'Notes',
         },
         { to: '/blog', label: 'Blog', position: 'right' },
+        { to: '/snippets', label: 'Snippets', position: 'right' },
         {
           href: 'https://github.com/aouos/aouojs',
           position: 'right',
