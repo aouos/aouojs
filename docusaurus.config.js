@@ -7,7 +7,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'AouoJS',
   tagline: 'jvascript notes',
-  url: 'https://aouos.com',
+  url: 'https://js.aouos.com',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -73,7 +73,7 @@ const config = {
             },
             {
               label: 'Animation Algorithm',
-              to: 'https://aouos.com/animation-algorithm/',
+              to: 'https://algo.aouos.com',
             },
           ],
         },
@@ -120,7 +120,7 @@ const config = {
       copyright: `Copyright © 2020 - ${new Date().getFullYear()} AouoCode. Built with Docusaurus.`,
     },
     colorMode: {
-      defaultMode: 'dark',
+      defaultMode: 'light',
     },
     prism: {
       theme: lightCodeTheme,
