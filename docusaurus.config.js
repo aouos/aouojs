@@ -21,7 +21,7 @@ const config = {
       {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
-          editUrl: 'https://github.com/aouos/aouojs/blob/main',
+          editUrl: 'https://github.com/aouos/aouojs/edit/main',
         },
         blog: {
           showReadingTime: true,
@@ -68,8 +68,8 @@ const config = {
           title: 'Works',
           items: [
             {
-              label: 'What to eat',
-              to: 'https://aouos.cn/',
+              label: 'AouoCode',
+              to: 'https://aouos.com/',
             },
             {
               label: 'Animation Algorithm',
@@ -100,10 +100,10 @@ const config = {
           ],
         },
         {
-          title: 'About',
+          title: 'Social',
           items: [
             {
-              label: 'About me',
+              label: 'About',
               to: '/about',
             },
             {
