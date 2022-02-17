@@ -52,8 +52,8 @@ const config = {
           position: 'right',
           label: 'Notes',
         },
-        { to: '/blog', label: 'Blog', position: 'right' },
-        { to: '/snippets', label: 'Snippets', position: 'right' },
+        // { to: '/blog', label: 'Blog', position: 'right' },
+        // { to: '/snippets', label: 'Snippets', position: 'right' },
         {
           href: 'https://github.com/aouos/aouojs',
           position: 'right',
