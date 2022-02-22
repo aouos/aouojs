@@ -4,14 +4,14 @@
         <title>AouoJS Blog</title>
         <link>https://js.aouos.com/blog</link>
         <description>AouoJS Blog</description>
-        <lastBuildDate>Thu, 17 Feb 2022 14:49:46 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 22 Feb 2022 13:14:37 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <item>
             <title><![CDATA[Welcome to my blog]]></title>
             <link>https://js.aouos.com/blog/blog-start</link>
             <guid>blog-start</guid>
-            <pubDate>Thu, 17 Feb 2022 14:49:46 GMT</pubDate>
+            <pubDate>Tue, 22 Feb 2022 13:14:37 GMT</pubDate>
             <description><![CDATA[this blog test]]></description>
             <content:encoded><![CDATA[<p>this blog test</p>]]></content:encoded>
         </item>
